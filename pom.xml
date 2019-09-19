@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.treinamento</groupId>
-	<artifactId>AUT-PHP-TRAVEL-WEB</artifactId>
+	<artifactId>AUT-PHPTRAVEL-WEB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -14,6 +14,7 @@
 	</properties>
 
 	<dependencies>
+
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -35,6 +36,6 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-
 	</dependencies>
+
 </project>
